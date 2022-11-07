@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%) ;
+}
+
+aside{
+    background-color: hsl(216, 50%, 16%);
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 2%;
+    margin-top: 12px;
+}
+
+aside figure{
+    width: 90%;
+    margin: auto;
+}
+
+aside figure img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+aside h2{
+    color: white;
+    font-weight: bold;
+    margin: 5% auto;
+    width: 90%;
+    font-family: cursive;
+
+}
+
+aside p{
+    color: hsl(215, 51%, 70%);
+}
+
+aside h2 + p{
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.info{
+    width: 90%;
+    margin: 5% auto;
+}
+
+.info strong, .info em{
+    display: inline-block;
+    width: 49%;
+}
+
+.info strong{
+    color: hsl(178, 100%, 50%);
+    text-align: left;
+}
+
+.info strong img, .info strong span{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: cursive;
+    margin-right: 3%;
+}
+
+.info em{
+    text-align: right;
+}
+
+.info em img, .info em span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3%;
+}
+
+aside footer{
+    width: 90%;
+    margin: auto;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 5%;
+}
+
+aside footer .avatar, aside footer .attr{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3%;
+    font-family: cursive;
+    font-weight: normal;
+    font-size: small;
+}
+
+aside footer .avatar img{
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+aside footer .attr .name{
+    color: white;
+}
+
+body footer{
+    color: burlywood;
+}
