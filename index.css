@@ -9,22 +9,35 @@ body{
 
 aside{
     background-color: hsl(216, 50%, 16%);
-    width: 400px;
+    width: min(80%,350px);
     margin: auto;
     border-radius: 20px;
-    padding: 15px;
+    padding: 15px 0 0 0;
     margin-bottom: 2%;
     margin-top: 12px;
+    position: relative;
 }
 
 aside figure{
     width: 90%;
     margin: auto;
+    position: relative;
 }
 
 aside figure img{
     width: 100%;
     border-radius: 10px;
+}
+
+figure:hover::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background: url(images/icon-view.svg) no-repeat 50% 50%, hsla(170, 100%, 50%, 0.63);
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 aside h2{
@@ -107,4 +120,8 @@ aside footer .attr .name{
 
 body footer{
     color: burlywood;
+}
+.name:hover{
+    cursor: pointer;
+    color:  hsla(170, 100%, 50%, 0.63) !important;
 }
